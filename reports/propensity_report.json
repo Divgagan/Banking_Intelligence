@@ -1,0 +1,34 @@
+{
+  "status": "historical_ownership_only",
+  "trained_models": false,
+  "future_uptake_target_available": false,
+  "score_is_probability": false,
+  "limitations": [
+    "The dataset contains current ownership flags but no campaign-response or future uptake labels.",
+    "Current ownership is not a future propensity target.",
+    "Product eligibility, suitability, consent, and customer needs are unavailable.",
+    "No product offer should be inferred from these summaries."
+  ],
+  "products": {
+    "credit_card": {
+      "status": "ownership_summary_only",
+      "owners": 30460,
+      "ownership_rate": 0.6251667590255116
+    },
+    "personal_loan": {
+      "status": "ownership_summary_only",
+      "owners": 15402,
+      "ownership_rate": 0.3161135398066621
+    },
+    "investment_account": {
+      "status": "ownership_summary_only",
+      "owners": 20738,
+      "ownership_rate": 0.42563060566878064
+    },
+    "insurance_product": {
+      "status": "ownership_summary_only",
+      "owners": 10335,
+      "ownership_rate": 0.21211748045071116
+    }
+  }
+}

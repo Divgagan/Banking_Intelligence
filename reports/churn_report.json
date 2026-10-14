@@ -1,0 +1,26 @@
+{
+  "status": "exploratory_indicator_only",
+  "supervised_model_trained": false,
+  "target_status": "unavailable",
+  "target_description": "No independently verified churn outcome or prediction window is present. source_churn_probability is treated as an undocumented precomputed score, not as a target.",
+  "score_type": "exploratory_relative_indicator",
+  "score_is_probability": false,
+  "signals": [
+    "transaction_recency",
+    "transaction_frequency",
+    "digital_engagement",
+    "satisfaction",
+    "complaints"
+  ],
+  "customers_scored": 48723,
+  "band_counts": {
+    "middle": 29678,
+    "upper": 9535,
+    "lower": 9510
+  },
+  "limitations": [
+    "Bands rank customers against this dataset and are not calibrated probabilities.",
+    "The one-year transaction extract does not establish future churn.",
+    "Scores must not be used to claim retention impact or automate customer contact."
+  ]
+}

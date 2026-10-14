@@ -1,0 +1,38 @@
+{
+  "k_evaluation": {
+    "2": {
+      "inertia": 1316997.9100146675,
+      "silhouette": 0.16222055554331732
+    },
+    "3": {
+      "inertia": 1242192.4545045113,
+      "silhouette": 0.1396095607104961
+    },
+    "4": {
+      "inertia": 1147694.3750891017,
+      "silhouette": 0.08619526913351389
+    },
+    "5": {
+      "inertia": 1092750.714045804,
+      "silhouette": 0.09709976850781953
+    },
+    "6": {
+      "inertia": 1032385.9133441284,
+      "silhouette": 0.09559474175992874
+    },
+    "7": {
+      "inertia": 988379.320893591,
+      "silhouette": 0.10266924321563566
+    },
+    "8": {
+      "inertia": 944386.2805534408,
+      "silhouette": 0.11696945781215766
+    }
+  },
+  "best_k": 2,
+  "segment_labels": {
+    "0": "High-Engagement Power Users",
+    "1": "Dormant / Low-Activity"
+  },
+  "feature_version": "v2.0"
+}

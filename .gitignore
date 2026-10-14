@@ -1,0 +1,67 @@
+# ============================================================
+# .gitignore — Banking Customer Intelligence Platform
+# ============================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.eggs/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Environment / Secrets ---
+.env
+*.env
+!.env.example
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Raw & large data files ---
+data/raw/
+data/processed/*.csv
+data/processed/*.parquet
+data/exports/
+
+# --- Trained models ---
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# --- Reports & generated figures ---
+reports/figures/
+reports/*.html
+
+# --- IDE ---
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+logs/
+
+# --- PostgreSQL dumps ---
+*.sql.gz
+*.dump

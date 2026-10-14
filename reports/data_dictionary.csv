@@ -1,0 +1,59 @@
+source_file,column,dtype,rows,missing_count,distinct_non_null,description
+customer_data.csv,customer_id,int64,48723,0,48723,Source identifier; used to join customer and transaction records.
+customer_data.csv,age,int64,48723,0,6,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,gender,object,48723,0,3,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,location,object,48723,0,18,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,income_bracket,object,48723,0,4,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,occupation,object,48723,0,35,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,education_level,object,48723,0,4,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,marital_status,object,48723,0,4,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,household_size,int64,48723,0,13,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,acquisition_channel,object,48723,0,4,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,customer_segment,object,48723,0,4,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,savings_account,bool,48723,0,2,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,credit_card,bool,48723,0,2,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,personal_loan,bool,48723,0,2,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,investment_account,bool,48723,0,2,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,insurance_product,bool,48723,0,2,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,active_products,int64,48723,0,5,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,app_logins_frequency,int64,48723,0,27,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,feature_usage_diversity,int64,48723,0,11,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,bill_payment_user,bool,48723,0,2,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,auto_savings_enabled,bool,48723,0,2,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,credit_utilization_ratio,float64,48723,18263,30460,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,international_transactions,int64,48723,0,7,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,failed_transactions,int64,48723,0,5,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,tx_count,int64,48723,0,988,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,avg_tx_value,float64,48723,0,48577,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,total_tx_volume,int64,48723,0,48277,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,first_tx,object,48723,0,180,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,last_tx,object,48723,0,174,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,base_satisfaction,float64,48723,0,48723,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,tx_satisfaction,float64,48723,0,191,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,product_satisfaction,float64,48723,0,6,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,satisfaction_score,int64,48723,0,5,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,nps_score,int64,48723,0,99,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,last_survey_date,object,48723,0,365,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,support_tickets_count,int64,48723,0,8,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,resolved_tickets_ratio,float64,48723,0,16,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,app_store_rating,float64,48723,0,7,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,feedback_sentiment,object,48723,0,3,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,feature_requests,object,48723,16115,25,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,complaint_topics,object,48723,24346,5,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,clv_segment,object,48723,0,4,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,monthly_transaction_count,float64,48723,0,1133,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,average_transaction_value,float64,48723,0,48577,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,total_transaction_volume,int64,48723,0,48277,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,transaction_frequency,float64,48723,0,6365,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,last_transaction_date,object,48723,0,174,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,preferred_transaction_type,object,48723,0,4,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,first_transaction_date,object,48723,0,180,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,weekend_transaction_ratio,float64,48723,0,2864,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,avg_daily_transactions,float64,48723,0,6365,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,customer_tenure,float64,48723,0,180,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,churn_probability,float64,48723,0,1977,Source-provided field; detailed definition and units are not documented in the workspace.
+customer_data.csv,customer_lifetime_value,float64,48723,0,48723,Source-provided field; detailed definition and units are not documented in the workspace.
+transactions_data.csv,customer_id,int64,3159157,0,48723,Source identifier; used to join customer and transaction records.
+transactions_data.csv,date,object,3159157,0,360,Source transaction date; no timezone or event-window metadata is provided.
+transactions_data.csv,amount,int64,3159157,0,394574,Source transaction amount; currency is not specified in the available file.
+transactions_data.csv,type,object,3159157,0,4,Source transaction category; category definitions should be confirmed with the provider.

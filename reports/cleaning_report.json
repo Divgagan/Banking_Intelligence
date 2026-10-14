@@ -1,0 +1,37 @@
+{
+  "customers": {
+    "rows": 48723,
+    "columns": 52,
+    "missing_per_col": {
+      "feature_requests": 16115,
+      "complaint_topics": 24346
+    },
+    "source_churn_probability_available": true,
+    "age_group_dist": {
+      "Senior (46\u201360)": 16365,
+      "Young (\u226430)": 16219,
+      "Middle (31\u201345)": 16139
+    },
+    "source_segment_dist": {
+      "occasional": 19391,
+      "regular": 14568,
+      "inactive": 9904,
+      "power": 4860
+    }
+  },
+  "transactions": {
+    "rows": 3159055,
+    "date_min": "2023-01-04",
+    "date_max": "2023-12-29",
+    "amount_min": 36400,
+    "amount_max": 689739900,
+    "amount_mean": 3971025.680749465,
+    "type_dist": {
+      "Transfer": 1433908,
+      "Payment": 970514,
+      "Withdrawal": 456569,
+      "Deposit": 298064
+    },
+    "outlier_count": 3160
+  }
+}

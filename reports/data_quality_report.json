@@ -1,0 +1,43 @@
+{
+  "dataset_name": "COFINFAD (as described by project owner; provenance not independently verified)",
+  "source_files": {
+    "customers": {
+      "file": "customer_data.csv",
+      "rows": 48723,
+      "columns": 54,
+      "duplicate_customer_ids": 0
+    },
+    "transactions": {
+      "file": "transactions_data.csv",
+      "rows": 3159157,
+      "columns": 4,
+      "exact_duplicate_rows": 102,
+      "duplicate_customer_date_amount_type_rows": 102,
+      "invalid_dates": 0,
+      "date_min": "2023-01-04",
+      "date_max": "2023-12-29",
+      "invalid_or_nonpositive_amounts": 0,
+      "amount_p99_9": 74581979.40000576,
+      "amount_outlier_count_p99_9": 3160,
+      "currency_field_present": false
+    }
+  },
+  "relationships": {
+    "unique_customer_ids": 48723,
+    "transaction_customer_ids_matching_customers": 48723,
+    "orphan_transaction_customer_ids": 0,
+    "customers_without_transactions": 0
+  },
+  "target_validity": {
+    "verified_churn_outcome_available": false,
+    "source_churn_probability_is_verified_target": false,
+    "historical_product_uptake_or_campaign_response_available": false,
+    "currency_confirmed": false
+  },
+  "provenance_and_licence": {
+    "source_url": "not documented in the workspace",
+    "licence": "not documented in the workspace; redistribution rights must be verified",
+    "handling": "Keep raw files private until provenance and licence terms are confirmed."
+  },
+  "column_dictionary_rows": 58
+}
